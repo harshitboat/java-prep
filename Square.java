@@ -3,7 +3,7 @@ interface SquareCal {
     int square(int x);
 }
 
-public class LambdaSquare {
+public class Square {
     public static void main(String[] args) {
         SquareCal sq = (n) -> n * n;
 
